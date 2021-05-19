@@ -14,6 +14,9 @@ const styles = StyleSheet.create({
     fontSize: 40,
     fontWeight: '600',
   },
+  subtitleCTA: {
+    textDecorationLine: 'underline'
+  },
   subtitle: {
     fontSize: 16,
     color: '#5c5e62',
@@ -24,6 +27,11 @@ const styles = StyleSheet.create({
     resizeMode: 'cover',
     // makes the image to be behind the text content
     position: 'absolute',
+  },
+  buttonContainer: {
+    position: 'absolute',
+    bottom: 50,
+    width: '100%',
   }
 });
 
